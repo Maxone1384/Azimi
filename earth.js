@@ -17,7 +17,7 @@ window.addEventListener('load', () => {
       const value = document.getElementById(field.id).value.trim();
       if (value === '') {
         hasError = true;
-        errorMessage += - ${field.label} را وارد کنید\n;
+        errorMessage += '- ${field.label} را وارد کنید\n';
       }
     });
 
