@@ -21,7 +21,7 @@ function validateForm() {
   const captchaInput = document.getElementById('captcha-input').value.trim();
   const realCaptcha = document.querySelector('.captcha-code').textContent;
 
-  if (!username  !password  !captchaInput) {
+  if (!username && !password && !captchaInput) {
     alert('⚠️ لطفاً تمام فیلدها را پر کنید.');
     return;
   }
