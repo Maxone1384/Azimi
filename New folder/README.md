@@ -1,2 +1,0 @@
-# Azimi
-pro-project
